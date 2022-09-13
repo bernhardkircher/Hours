@@ -659,7 +659,7 @@ GEM
       activemodel
     erubi (1.8.0)
     erubis (2.7.0)
-    execjs (2.7.0)
+    execjs (2.8.1)
     factory_girl (4.4.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.4.1)
@@ -725,7 +725,9 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
-    mimemagic (0.3.2)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
@@ -866,7 +868,7 @@ GEM
       unf (~> 0.1.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    uglifier (4.0.2)
+    uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
